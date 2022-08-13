@@ -34,6 +34,14 @@ export const projects =
         group: "Industry",
         color: "#16181b"
     },
+    {
+        key: "space-game",
+        description: "Space Game (2022)",
+        image: "/images/space/cockpit.jpg",
+        slug: "spacegame",
+        group: "Personal Projects",
+        color: "#16181b"
+    },
 ];
 
 export const groups = 
