@@ -3,6 +3,7 @@ import {Row, Col} from 'react-bootstrap';
 import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
 import ProjectVideoCard from '../ProjectVideoCard';
+import ProjectWebGLCard from '../ProjectWebGLCard';
 
 export default function WolfWolfSheep() {
     return (
@@ -14,7 +15,7 @@ export default function WolfWolfSheep() {
                     {/* ------ Row 1 ------ */}
                     <Row>
                         <Col>
-                            <iframe frameborder="0" src="https://itch.io/embed-upload/6326068?color=505050" allowfullscreen="" title='Wolf Wolf Sheep' width="960" height="670"><a href="https://frozenwipstudios.itch.io/wolf-wolf-sheep">Play Wolf Wolf Sheep on itch.io</a></iframe>
+                        <ProjectWebGLCard url='https://itch.io/embed-upload/6326068?color=333333'/>
                         </Col>
                     </Row>
 
