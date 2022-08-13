@@ -4,35 +4,35 @@ export const projects =
 [
     {
         key: "untamed-isles",
-        description: "Untamed Isles",
+        description: "Untamed Isles (2022)",
         image: "/images/untamed/untamed-isles-card-transparent.png",
         slug: "untamed",
         group: "Industry",
-        color: "#3d5b5c"
+        color: "#437675"
     },
     {
         key: "wolf-wolf-sheep",
-        description: "Wolf Wolf Sheep",
+        description: "Wolf Wolf Sheep (2022)",
         image: "/images/wolfwolfsheep/wolf-wolf-sheep-card-transparent.png",
         slug: "wolfwolfsheep",
         group: "Game Jams",
-        color: "#a9bc1a"
+        color: "#7b9300"
     },
     {
         key: "stick-royale",
-        description: "Stick Royale",
+        description: "Stick Royale (2017)",
         image: "/images/stickroyale/stick-royale-card.png",
         slug: "stickroyale",
         group: "Personal Projects",
-        color: "#ddb000"
+        color: "#16181b"
     },
     {
         key: "soil-sim",
-        description: "VR Soil Sim",
-        image: "/images/soilsim/soil-sim-card.png",
+        description: "VR Soil Sim (2021)",
+        image: "/images/soilsim/soil-sim-card.jpg",
         slug: "soilsim",
         group: "Industry",
-        color: "#ddb000"
+        color: "#16181b"
     },
 ];
 

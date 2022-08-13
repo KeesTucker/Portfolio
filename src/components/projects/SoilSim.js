@@ -4,7 +4,7 @@ import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
 import ProjectVideoCard from '../ProjectVideoCard';
 
-export default function ExampleProject() {
+export default function SoilSim() {
     return (
         <div className="project">
             <Row>

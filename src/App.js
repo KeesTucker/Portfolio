@@ -12,7 +12,10 @@ import Header from "./components/Header";
 import Games from "./components/pages/Games";
 
 // Project components
-import ExampleProject from "./components/projects/ExampleProject";
+import UntamedIsles from "./components/projects/UntamedIsles";
+import StickRoyale from "./components/projects/StickRoyale";
+import SoilSim from "./components/projects/SoilSim";
+import WolfWolfSheep from "./components/projects/WolfWolfSheep";
 
 // Font awesome setup
 const iconList = Object.keys(Icons)
@@ -37,7 +40,10 @@ export default function App() {
               <Route path="/games" exact component={() => <Games />} />
 
               {/* Projects */}
-              <Route path="/projects/example" exact component={() => <ExampleProject />} />
+              <Route path="/projects/soilsim" exact component={() => <SoilSim />} />
+              <Route path="/projects/untamed" exact component={() => <UntamedIsles />} />
+              <Route path="/projects/stickroyale" exact component={() => <StickRoyale />} />
+              <Route path="/projects/wolfwolfsheep" exact component={() => <WolfWolfSheep />} />
             </Switch>
           </Row>
         </Container>

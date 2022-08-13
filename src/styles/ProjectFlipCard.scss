@@ -1,7 +1,7 @@
 :root { --time: 0.707s; } // idk what this does but it's required to make this work lol
 
 .project-flip-card {
-    perspective: 40rem;
+    perspective: 100rem;
     display: flex;
     transition: z-index, transform calc(var(--time) / 4);
     transition-delay: var(--time), 0s;
@@ -11,6 +11,8 @@
   
     img {
       height:100%;
+      border-radius: 0rem;
+      border: #16181b medium solid;
     }
 
     &.gradient .card-img-overlay {
@@ -26,8 +28,13 @@
         transform: scale(0.975);
     }
 
-    h3, h5 {
+    h3 {
       color: white;
+    }
+    
+    h5 {
+      color: white;
+      font-size: 1.5rem;
     }
 
     .card-img-overlay.centered {
@@ -38,7 +45,6 @@
 }
 
 .project-card-body {
-  border-radius: 0.25rem;
   flex: 1;
   display: flex;
   transform-style: preserve-3d;
@@ -49,8 +55,7 @@
   }
 
   .project-card-front {
-    font-size: 1.5rem;
-    background-color: #69625d;
+    background-color: #16181b;
 
     svg {
       color: white;
@@ -67,10 +72,10 @@
   }
   
   .project-card-front, .project-card-back {
+    border-radius: 0rem;
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    border-radius: 0.25rem;
     backface-visibility: hidden;
     min-width: 100%;
     margin: 0px;
