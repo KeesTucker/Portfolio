@@ -15,7 +15,7 @@ export default function WolfWolfSheep() {
                     {/* ------ Row 1 ------ */}
                     <Row>
                         <Col>
-                        <ProjectWebGLCard url='https://itch.io/embed-upload/6326068?color=333333'/>
+                            <ProjectWebGLCard url='https://itch.io/embed-upload/6326068?color=333333'/>
                         </Col>
                     </Row>
 
