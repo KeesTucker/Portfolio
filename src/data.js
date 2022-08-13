@@ -48,18 +48,18 @@ export const groups =
 [
     {
         key: "Featured",
-        prio: 1,
+        prio: 4,
     },
     {
         key: "Industry",
-        prio: 2,
-    },
-    {
-        key: "Game Jams",
         prio: 3,
     },
     {
+        key: "Game Jams",
+        prio: 2,
+    },
+    {
         key: "Personal Projects",
-        prio: 4,
+        prio: 1,
     },
 ];

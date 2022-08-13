@@ -15,7 +15,7 @@ export default function SpaceGame() {
                     {/* ------ Row 1 ------ */}
                     <Row>
                         <Col>
-                            <ProjectWebGLCard url='https://itch.io/embed-upload/6326164?color=333333'/>
+                            <ProjectWebGLCard url='https://itch.io/embed-upload/6326164?color=16181b'/>
                         </Col>
                     </Row>
 
