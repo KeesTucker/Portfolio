@@ -20,13 +20,13 @@ export default function Games() {
         return {};
     });
 
+    // Construct array of category elements
     groups.map(group => 
     {
         group_dict[group.key] = group.prio;
         return {};
     })
 
-    // Construct array of category elements
     let content = [];
     for (let group in project_dict)
         content.push(
@@ -36,7 +36,7 @@ export default function Games() {
         );
     
     // Sort by prio
-    content = content.sort((a, b) => group_dict[a.key] - group_dict[b.key]);
+    content = content.sort((a, b) => group_dict[a.key] - group_dict[b.key]).reverse();
 
     return (<div className="projects">{content}</div>)
 }
