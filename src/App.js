@@ -9,7 +9,7 @@ import * as Icons from '@fortawesome/free-solid-svg-icons';
 import Header from "./components/Header";
 
 // Nav page components
-import Projects from "./components/pages/Projects";
+import Games from "./components/pages/Games";
 
 // Project components
 import ExampleProject from "./components/projects/ExampleProject";
@@ -33,8 +33,8 @@ export default function App() {
           <Row className="justify-content-center">
             {/* Registers route listeners */}
             <Switch>
-              <Route path="/" exact component={() => <Projects />} />
-              <Route path="/projects" exact component={() => <Projects />} />
+              <Route path="/" exact component={() => <Games />} />
+              <Route path="/games" exact component={() => <Games />} />
 
               {/* Projects */}
               <Route path="/projects/example" exact component={() => <ExampleProject />} />
