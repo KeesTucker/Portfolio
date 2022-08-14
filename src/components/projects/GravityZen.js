@@ -47,13 +47,6 @@ export default function GravityZen() {
                 {/* ------ Right Column ------ */}
                 <Col md={3}>
                     <ProjectImageCard src="/images/gravity/gravity-card.png" />
-                    <ProjectTextCard>
-                        <h2>Team</h2>
-                        <ul>
-                            <li>Travers Cole - Programmer</li>
-                            <li>Kees - Programmer</li>
-                        </ul>
-                    </ProjectTextCard>
 
                     <ProjectTextCard>
                         <h2>Technologies</h2>
