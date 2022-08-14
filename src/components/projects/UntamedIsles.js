@@ -30,7 +30,7 @@ export default function UntamedIsles() {
                             <ProjectTextCard>
                                 <h2>Responsibilities</h2>
                                 <p>Onboarding: I helped onboard some of the new hires, this was a highlight for me and I took a lot of pride in making sure they had a good introduction to the company.</p>
-                                <p>Delegation: I took many of the bugs found my QA and delegated these out to the developers closest to these features.</p>
+                                <p>Delegation: I took many of the bugs found by QA and delegated these out to the developers closest to these features.</p>
                                 <p>Tooling: I created and documented many tools for the designers, level designers and other programmers.</p>
                                 <p>Code Quality: I handled many merge requests and passed on my knowledge wherever possible.</p>
                             </ProjectTextCard>
