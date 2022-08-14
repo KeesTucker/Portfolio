@@ -12,15 +12,6 @@ export const projects =
         color: "#437675"
     },
     {
-        key: "wolf-wolf-sheep",
-        description: "Wolf Wolf Sheep (2022)",
-        image: "/images/wolfwolfsheep/wolf-wolf-sheep-card-transparent.png",
-        slug: "wolfwolfsheep",
-        group: "Game Jams",
-        featured: true,
-        color: "#7b9300"
-    },
-    {
         key: "stick-royale",
         description: "Stick Royale (2017)",
         image: "/images/stickroyale/stick-royale-card.png",
@@ -30,9 +21,18 @@ export const projects =
         color: "#16181b"
     },
     {
+        key: "wolf-wolf-sheep",
+        description: "Wolf Wolf Sheep (2022)",
+        image: "/images/wolfwolfsheep/wolf-wolf-sheep-card-transparent.png",
+        slug: "wolfwolfsheep",
+        group: "Game Jams",
+        featured: true,
+        color: "#7b9300"
+    },
+    {
         key: "soil-sim",
         description: "VR Soil Sim (2021)",
-        image: "/images/soilsim/soil-sim-card.jpg",
+        image: "/images/soilsim/soil-sim-card.png",
         slug: "soilsim",
         group: "Prototype",
         featured: true,
@@ -41,7 +41,7 @@ export const projects =
     {
         key: "space-game",
         description: "Space Game (2022)",
-        image: "/images/space/space-card.jpg",
+        image: "/images/space/cockpit.jpg",
         slug: "spacegame",
         group: "Personal Projects",
         featured: false,
@@ -50,7 +50,7 @@ export const projects =
     {
         key: "gravity-zen",
         description: "Gravity Zen (2019)",
-        image: "/images/gravityzen/gravity-card.jpg",
+        image: "/images/gravity/gravity-card.png",
         slug: "gravityzen",
         group: "Personal Projects",
         featured: false,
@@ -61,15 +61,6 @@ export const projects =
         description: "Vision (2020)",
         image: "/images/vision/vision-card.jpg",
         slug: "vision",
-        group: "Prototype",
-        featured: false,
-        color: "#16181b"
-    },
-    {
-        key: "waves",
-        description: "Procedural Waves (2018)",
-        image: "/images/waves/waves-card.jpg",
-        slug: "waves",
         group: "Prototype",
         featured: false,
         color: "#16181b"
@@ -89,15 +80,6 @@ export const projects =
         image: "/images/birthday/birthday-card.jpg",
         slug: "birthday",
         group: "Personal Projects",
-        featured: false,
-        color: "#16181b"
-    },
-    {
-        key: "grass",
-        description: "Grass Rendering (2022)",
-        image: "/images/birthday/grass.jpg",
-        slug: "grass",
-        group: "Prototype",
         featured: false,
         color: "#16181b"
     },

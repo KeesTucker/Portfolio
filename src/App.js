@@ -23,8 +23,7 @@ import GravityZen from "./components/projects/GravityZen";
 import Vision from "./components/projects/Vision";
 import MotorbikeML from "./components/projects/MotorbikeML";
 import Birthday from "./components/projects/Birthday";
-import Waves from "./components/projects/Waves";
-import Grass from "./components/projects/Grass";
+import Gallery from "./components/pages/Gallery";
 
 // Font awesome setup
 const iconList = Object.keys(Icons)
@@ -49,6 +48,7 @@ export default function App() {
               <Route path="/projects" exact component={() => <Projects />} />
               <Route path="/contact" exact component={() => <Contact />} />
               <Route path="/blog" exact component={() => <Blog />} />
+              <Route path="/gallery" exact component={() => <Gallery />} />
 
               {/* Projects */}
               <Route path="/projects/soilsim" exact component={() => <SoilSim />} />
@@ -60,8 +60,6 @@ export default function App() {
               <Route path="/projects/vision" exact component={() => <Vision />} />
               <Route path="/projects/motorbikeml" exact component={() => <MotorbikeML />} />
               <Route path="/projects/birthday" exact component={() => <Birthday />} />
-              <Route path="/projects/waves" exact component={() => <Waves />} />
-              <Route path="/projects/grass" exact component={() => <Grass />} />
             </Switch>
           </Row>
         </Container>

@@ -3,6 +3,8 @@ import {Row, Col} from 'react-bootstrap';
 import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
 import ProjectVideoCard from '../ProjectVideoCard';
+import ItchDownload from '../ItchDownload';
+import ProjectYoutubeEmbedCard from '../ProjectYoutubeEmbedCard';
 
 export default function SoilSim() {
     return (
@@ -10,26 +12,13 @@ export default function SoilSim() {
             <Row>
                 {/* ------ Left Column ------ */}
                 <Col md={9}>
-
                     {/* ------ Row 1 ------ */}
                     <Row>
-                        <Col>
-                            <iframe title='Download Button' frameborder="0" src="https://itch.io/embed/1187326?border_width=0&amp;bg_color=222222&amp;fg_color=eeeeee&amp;link_color=eeeeee&amp;border_color=363636" width="550" height="165"><a href="https://soggykees.itch.io/vr-soil-sim">VR Soil Sim by Kees Tucker</a></iframe>
-                        </Col>
-                    </Row>
-
-                    <Row>
-                        <Col>
+                        <Col md={12}>
+                            <ProjectYoutubeEmbedCard src="yNE658IFdYg"/>
+                            <ItchDownload src="1187326" download='https://soggykees.itch.io/vr-soil-sim' title='Soil Sim by Kees Tucker' />
                             <ProjectTextCard>
-                                <h2>Title</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </ProjectTextCard>
-                        </Col>
-                        <Col>
-                            <ProjectTextCard>
-                                <h2>Title</h2>
+                                <h2>About</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -39,77 +28,42 @@ export default function SoilSim() {
 
                     <Row>
                         <Col md={6}>
+                            <ProjectVideoCard src="/videos/soil-overhang.mp4" type="video/mp4" title='Overhand Test' />
                             <ProjectTextCard>
-                                <h2>Title</h2>
+                                <h2>Learnings</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </ProjectTextCard>
+                            <ProjectImageCard src="/images/soilsim/colliders.png"  title='Colliders'/>
                         </Col>
-                        <Col><ProjectImageCard src="/images/example/lineup.png" /></Col>
-                    </Row>
-                    <Row>
                         <Col md={6}>
                             <ProjectTextCard>
-                                <h2>Title</h2>
+                                <h2>Features</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </ProjectTextCard>
+                            <ProjectImageCard src="/images/soilsim/colliders1.png"  title='Cube Sitting on Terrain'/>
+                            <ProjectVideoCard src="/videos/soil-overhang-1.mp4" type="video/mp4" title='Spread' />
                         </Col>
-                        <Col>
-                            <ProjectTextCard>
-                                <h2>Title</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </ProjectTextCard>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={6}>
-                            <ProjectTextCard>
-                                <h2>Title</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </ProjectTextCard>
-                        </Col>
-                        <Col>
-                            <ProjectTextCard>
-                                <h2>Title</h2>
-                                <p>Some other gameplay features include:</p>
-                                <ul>
-                                    <li>Outfit presets</li>
-                                    <li>Quests</li>
-                                    <li>Achievements</li>
-                                    <li>In-game Shop</li>
-                                    <li>Leaderboards</li>
-                                    <li>Friend lists</li>
-                                </ul>
-                            </ProjectTextCard>
-                        </Col>
-                    </Row>
-
-                    <Row>
-                        <Col><ProjectImageCard src="/images/example/dressup1.png" /></Col>
-                        <Col><ProjectImageCard src="/images/example/dressup3.png" /></Col>
-                        <Col><ProjectVideoCard src="/videos/example/gameplay.mp4" type="video/mp4"/></Col>
                     </Row>
                 </Col>
 
                 {/* ------ Right Column ------ */}
-                <Col md={3}>example
-
-                    <ProjectImageCard src="/images/example/card-example.png" />
+                <Col md={3}>
+                    <ProjectImageCard src="/images/soilsim/soil-sim-card.png" />
 
                     <ProjectTextCard>
-                        <h2>Team Members</h2>
+                        <h2>Info</h2>
                         <ul>
-                            <li>Guy 1</li>
-                            <li>Guy 2</li>
-                            <li>Guy 3</li>
-                            <li>Guy 4</li>
+                            <li>University Project</li>
+                            <li>Client: Evans Taylor Digital</li>
+                            <li>Programming: Kees Tucker</li>
+                            <li>Textures: Sophie Engel and Cara Kruger</li>
+                            <li>Oculus Rift</li>
+                            <li>itch.io PC</li>
                         </ul>
                     </ProjectTextCard>
-
-                    <ProjectImageCard src="/images/example/banner-example.png" />
 
                     <ProjectTextCard>
                         <h2>Technologies</h2>
@@ -117,8 +71,8 @@ export default function SoilSim() {
                             <li>Unity</li>
                             <li>C#</li>
                             <li>.NET</li>
-                            <li>EF Core</li>
-                            <li>EC2 & ECS (AWS)</li>
+                            <li>OpenXR</li>
+                            <li>Compute Shaders</li>
                         </ul>
                     </ProjectTextCard>
                 </Col>

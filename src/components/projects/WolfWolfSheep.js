@@ -3,6 +3,7 @@ import {Row, Col} from 'react-bootstrap';
 import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
 import ProjectWebGLCard from '../ProjectWebGLCard';
+import ItchDownload from '../ItchDownload';
 
 export default function WolfWolfSheep() {
     return (
@@ -20,6 +21,7 @@ export default function WolfWolfSheep() {
 
                     <Row>
                         <Col>
+                            <ItchDownload src='1540140' download='https://frozenwipstudios.itch.io/wolf-wolf-sheep' title='Wolf Wolf Sheep by Kees Tucker' />
                             <ProjectTextCard>
                                 <h2>About</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -43,7 +45,6 @@ export default function WolfWolfSheep() {
                 {/* ------ Right Column ------ */}
                 <Col md={3}>
                     <ProjectImageCard src="/images/wolfwolfsheep/wolf-wolf-sheep-card-transparent.png" />
-
                     <ProjectTextCard>
                         <h2>Team</h2>
                         <ul>
@@ -65,10 +66,6 @@ export default function WolfWolfSheep() {
                             <li>Boids</li>
                         </ul>
                     </ProjectTextCard>
-                </Col>
-
-                <Col>
-                    
                 </Col>
             </Row>
         </div>

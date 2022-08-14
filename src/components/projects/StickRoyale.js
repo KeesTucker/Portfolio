@@ -16,6 +16,7 @@ export default function StickRoyale() {
                     <Row>
                         <Col md={12}>
                             <ProjectYoutubeEmbedCard src="hrdFKRtlHqs"/>
+                            <ItchDownload src='1187259' download='https://soggykees.itch.io/stick-royale' title='Stick Royale by Kees Tucker' />
                             <ProjectTextCard>
                                 <h2>About</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -27,52 +28,39 @@ export default function StickRoyale() {
 
                     <Row>
                         <Col md={6}>
-                            <ProjectImageCard src="/images/untamed/wildencounter.png"  title='Wild Tame Encounter'/>
-                            <ProjectTextCard>
-                                <h2>Features</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </ProjectTextCard>
-                        </Col>
-                        <Col md={6}>
-                            <ProjectVideoCard src="/videos/untamedcombat.mp4" type="video/mp4"/>
+                            <ProjectImageCard src="/images/stickroyale/stick-royale-shop.png"  title='Shop'/>
                             <ProjectTextCard>
                                 <h2>Learnings</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </ProjectTextCard>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={6}>
-                            <ProjectImageCard src="/images/untamed/combatnpc.png" title='Combat'/>
-                            <ProjectImageCard src="/images/untamed/genome.png" title='Tame Genome'/>
+                            <ProjectVideoCard src="/videos/stickgameplay1.mp4" type="video/mp4"/>
                         </Col>
                         <Col md={6}>
-                            <ProjectImageCard src="/images/untamed/arenaplacement.png"  title='Arena Placement Algorithm'/>
-                            <ProjectImageCard src="/images/untamed/validarenas.png"  title='Valid Arena Cells'/>
+                            <ProjectTextCard>
+                                <h2>Features</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </ProjectTextCard>
+                            <ProjectVideoCard src="/videos/StickBrawlTrailerMulti.mp4" type="video/mp4" title='Android Trailer'/>
                         </Col>
                     </Row>
                 </Col>
 
                 {/* ------ Right Column ------ */}
                 <Col md={3}>
-                    <ProjectImageCard src="/images/untamed/untamed-isles-card-transparent.png" />
-
-                    <ItchDownload src='1187259' download='https://soggykees.itch.io/stick-royale' title='Stick Royale by Kees Tucker' />
+                    <ProjectImageCard src="/images/stickroyale/stick-royale-card.png" />
 
                     <ProjectTextCard>
-                        <h2>Studio</h2>
+                        <h2>Info</h2>
                         <ul>
-                            <li>My Position: Network Programmer/Feature Lead</li>
-                            <li>Phat Loot Studios</li>
-                            <li>New Zealand</li>
-                            <li>70 Employees</li>
+                            <li>Studio: Triple Fin Games</li>
+                            <li>Kees Tucker</li>
+                            <li>Android Play Store</li>
+                            <li>itch.io PC</li>
                         </ul>
                     </ProjectTextCard>
-
-                    <ProjectImageCard src="/images/untamed/phatlootlogo.png" />
 
                     <ProjectTextCard>
                         <h2>Technologies</h2>
@@ -81,14 +69,9 @@ export default function StickRoyale() {
                             <li>C#</li>
                             <li>.NET</li>
                             <li>Mirror</li>
-                            <li>Unity ECS</li>
-                            <li>Firebase</li>
+                            <li>Procedural Animation</li>
                         </ul>
                     </ProjectTextCard>
-                </Col>
-
-                <Col>
-                    
                 </Col>
             </Row>
         </div>

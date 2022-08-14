@@ -88,10 +88,6 @@ export default function UntamedIsles() {
                         </ul>
                     </ProjectTextCard>
                 </Col>
-
-                <Col>
-                    
-                </Col>
             </Row>
         </div>
     )
