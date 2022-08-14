@@ -7,7 +7,7 @@ export default function Header() {
 
     return (
         <div className="header">
-            <Navbar expand="md">
+            <Navbar expand="md" variant='dark'>
                 <Row className="top-row">
                     <Navbar.Brand>
                         <div className="title">
