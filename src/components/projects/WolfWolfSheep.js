@@ -24,9 +24,11 @@ export default function WolfWolfSheep() {
                             <ItchDownload src='1540140' download='https://frozenwipstudios.itch.io/wolf-wolf-sheep' title='Wolf Wolf Sheep by Kees Tucker' />
                             <ProjectTextCard>
                                 <h2>About</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>This was my teams submission to Aoteroa Game Jam 2022!</p>
+                                <p>Over the course of a weekend we developed an asymmetric multiplayer game similar to Among Us.</p>
+                                <p>This game taught me how valuable proper scoping is, we scoped our game very small and we finished early and got time to add extra features!</p>
+                                <p>We used photon for the networking and some synty assets for the environment. I used a naive boids implementation for the flocking sheep which helped make the sheeps movement somewhat realistic.</p>
+                                <p>We had so much fun making this. Unfortunatley it was disqualified as we used Photon Networking, however, it game 1st equal in the voting.</p>
                             </ProjectTextCard>
                             <ProjectImageCard src="/images/wolfwolfsheep/gameplay1.png"/>
                         </Col>

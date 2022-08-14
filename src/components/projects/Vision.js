@@ -2,9 +2,9 @@ import '../../styles/Project.scss';
 import {Row, Col} from 'react-bootstrap';
 import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
-import ProjectVideoCard from '../ProjectVideoCard';
 import ProjectWebGLCard from '../ProjectWebGLCard';
 import ItchDownload from '../ItchDownload';
+import ProjectYoutubeEmbedCard from '../ProjectYoutubeEmbedCard';
 
 export default function Vision() {
     return (
@@ -22,35 +22,37 @@ export default function Vision() {
 
                     <Row>
                         <Col>
-                            <ItchDownload src='1660089' download='https://soggykees.itch.io/space-fpsspaceflight' title='Space Game by Travers Cole and Kees Tucker' />
+                            <ItchDownload src='1187250' download='https://soggykees.itch.io/vision-platformer' title='Vision by Kees Tucker' />
                             <ProjectTextCard>
                                 <h2>About</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>A platformer where a 2D character interacts with a 3D world</p>
+                                <p>This was a group project completed in a very short time for an assignment during University, it shows my innovative approach and outside-the-box thinking. My group members went AWOL and so this was a great test of my problem-solving skills and my ability to work under pressure.</p>
+                                <p>The player can rotate the 3D world with their mouse and scroll wheel and then use the keyboard to move. This is a very strange experience as the character is locked to the screen space plane while the 3D world rotates around a fixed point.</p>
+                                <p>In order to achieve this effect I had to recalculate 2D colliders based on the outline of the 3D objects in the scene every frame.</p>
                             </ProjectTextCard>
-                            <ProjectImageCard src="/images/space/cockpit.png"/>
+                            <ProjectYoutubeEmbedCard src='MJ3pyKQbhiE'/>
                         </Col>
                     </Row>
                     <Row>
                         <Col md={6}>
-                            <ProjectImageCard src="/images/space/pilot.png"/>
-                            <ProjectImageCard src="/images/space/fps1.png"/>
+                            <ProjectImageCard src="/images/vision/gameplay1.png"/>
+                            <ProjectImageCard src="/images/vision/gameplay2.png"/>
                         </Col>
                         <Col md={6}>
-                            <ProjectImageCard src="/images/space/fps.png"/>
+                            <ProjectImageCard src="/images/vision/gameplay3.png"/>
+                            <ProjectImageCard src="/images/vision/gameplay4.png"/>
                         </Col>
                     </Row>
                 </Col>
 
                 {/* ------ Right Column ------ */}
                 <Col md={3}>
-                    <ProjectImageCard src="/images/space/cockpit.jpg" />
+                    <ProjectImageCard src="/images/vision/vision-card.png" />
                     <ProjectTextCard>
-                        <h2>Team</h2>
+                        <h2>Info</h2>
                         <ul>
-                            <li>Travers Cole - Programmer</li>
-                            <li>Kees - Programmer</li>
+                            <li>University Project</li>
+                            <li>3D/2D Platformer</li>
                         </ul>
                     </ProjectTextCard>
 
@@ -60,7 +62,7 @@ export default function Vision() {
                             <li>Unity</li>
                             <li>C#</li>
                             <li>.NET</li>
-                            <li>Mirror</li>
+                            <li>Triplanar Shaders</li>
                         </ul>
                     </ProjectTextCard>
                 </Col>

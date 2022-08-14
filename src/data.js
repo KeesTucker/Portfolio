@@ -59,7 +59,7 @@ export const projects =
     {
         key: "vision",
         description: "Vision (2020)",
-        image: "/images/vision/vision-card.jpg",
+        image: "/images/vision/vision-card.png",
         slug: "vision",
         group: "Prototype",
         featured: false,
@@ -68,7 +68,7 @@ export const projects =
     {
         key: "motorbikeml",
         description: "Motorbike Machine Learning (2020)",
-        image: "/images/motorbikeml/ml-card.jpg",
+        image: "/images/mlmotorbike/ml-card.png",
         slug: "motorbikeml",
         group: "Prototype",
         featured: false,
@@ -77,7 +77,7 @@ export const projects =
     {
         key: "birthday",
         description: "Birthday Gift (2020)",
-        image: "/images/birthday/birthday-card.jpg",
+        image: "/images/birthday/birthday-card.png",
         slug: "birthday",
         group: "Personal Projects",
         featured: false,

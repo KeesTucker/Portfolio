@@ -19,9 +19,10 @@ export default function StickRoyale() {
                             <ItchDownload src='1187259' download='https://soggykees.itch.io/stick-royale' title='Stick Royale by Kees Tucker' />
                             <ProjectTextCard>
                                 <h2>About</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Networked 2D physics-based rag-doll fighting game</p>
+                                <p>This was a project I started in high school at 15, I was heavily inspired by Stick Fight: The Game (and actually talked with the developer about my project), but I wanted a Battle Royale format so I made a clone in Unity and implemented networking with Mirror.</p> 
+                                <p>It was never really finished but I released it on the Google Play Store and on itch.io as an executable download.</p>
+                                <p>This game built my foundational programming and development skills and without it I wouldn't be half the programmer I am now.</p>
                             </ProjectTextCard>
                         </Col>
                     </Row>
@@ -31,17 +32,25 @@ export default function StickRoyale() {
                             <ProjectImageCard src="/images/stickroyale/stick-royale-shop.png"  title='Shop'/>
                             <ProjectTextCard>
                                 <h2>Learnings</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>This project blew out insanley quickly due to poor planning and lack of good architecture.</p>
+                                <p>Network optimization is hard! Networking 100 ragdolls in a battle royale setting was a huge challenge and forced me to optimize my networking.</p>
+                                <p>Actually releasing a game is very different from making a protoype. To get this game from a playable state to something I could put on the app store took about the same amount of time as developing the core gameplay features.</p>
                             </ProjectTextCard>
                             <ProjectVideoCard src="/videos/stickgameplay1.mp4" type="video/mp4"/>
                         </Col>
                         <Col md={6}>
                             <ProjectTextCard>
                                 <h2>Features</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <ul>
+                                    <li>Procedural Animation</li>
+                                    <li>20 Players in a single battle royale game</li>
+                                    <li>Fully networked guns, ragdolls, players</li>
+                                    <li>Procedural game map</li>
+                                    <li>Bot AI</li>
+                                    <li>Mobile UI and store</li>
+                                    <li>Movement mechanics such as grapples etc.</li>
+                                    <li>Inventory System</li>
+                                </ul>
                             </ProjectTextCard>
                             <ProjectVideoCard src="/videos/StickBrawlTrailerMulti.mp4" type="video/mp4" title='Android Trailer'/>
                         </Col>

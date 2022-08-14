@@ -2,8 +2,6 @@ import '../../styles/Project.scss';
 import {Row, Col} from 'react-bootstrap';
 import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
-import ProjectVideoCard from '../ProjectVideoCard';
-import ProjectWebGLCard from '../ProjectWebGLCard';
 import ItchDownload from '../ItchDownload';
 
 export default function Birthday() {
@@ -16,51 +14,42 @@ export default function Birthday() {
                     {/* ------ Row 1 ------ */}
                     <Row>
                         <Col>
-                            <ProjectWebGLCard url='https://itch.io/embed-upload/6326514?color=16181b'/>
+                            <ProjectImageCard src="/images/birthday/gameplay1.png"/>
                         </Col>
                     </Row>
 
                     <Row>
                         <Col>
-                            <ItchDownload src='1660089' download='https://soggykees.itch.io/space-fpsspaceflight' title='Space Game by Travers Cole and Kees Tucker' />
+                            <ItchDownload src='1187226' download='https://soggykees.itch.io/birthday-gift' title='Birthday Gift by Kees Tucker' />
                             <ProjectTextCard>
                                 <h2>About</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Since I couldn't purchase a present because of the COVID-19 situation I decided to put together a quick game so my stepdad could play it on his Birthday. We put it up on the TV as a surprise. Each animal had a message for him from a loved one. I must say this was an awesome birthday present and I'm pretty proud of myself for pulling it off in 2 days!</p>
+                                <p>I'm thinking of turning this into a configurable game where you can add your own names and quotes etc.</p>
+                                <p>I used a couple of assets to create this in unity as I didn't have time to build everything from scratch.</p>
+                                <p>The idea inspiration comes from @lucybrrt on twitter</p>
                             </ProjectTextCard>
-                            <ProjectImageCard src="/images/space/cockpit.png"/>
+                            <ProjectImageCard src="/images/birthday/gameplay3.png"/>
                         </Col>
                     </Row>
                     <Row>
                         <Col md={6}>
-                            <ProjectImageCard src="/images/space/pilot.png"/>
-                            <ProjectImageCard src="/images/space/fps1.png"/>
+                            <ProjectImageCard src="/images/birthday/gameplay2.png"/>
                         </Col>
                         <Col md={6}>
-                            <ProjectImageCard src="/images/space/fps.png"/>
+                            <ProjectImageCard src="/images/birthday/gameplay4.png"/>
                         </Col>
                     </Row>
                 </Col>
 
                 {/* ------ Right Column ------ */}
                 <Col md={3}>
-                    <ProjectImageCard src="/images/space/cockpit.jpg" />
-                    <ProjectTextCard>
-                        <h2>Team</h2>
-                        <ul>
-                            <li>Travers Cole - Programmer</li>
-                            <li>Kees - Programmer</li>
-                        </ul>
-                    </ProjectTextCard>
-
+                    <ProjectImageCard src="/images/birthday/birthday-card.png" />
                     <ProjectTextCard>
                         <h2>Technologies</h2>
                         <ul>
                             <li>Unity</li>
                             <li>C#</li>
                             <li>.NET</li>
-                            <li>Mirror</li>
                         </ul>
                     </ProjectTextCard>
                 </Col>

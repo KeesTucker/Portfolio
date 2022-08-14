@@ -3,7 +3,7 @@ import {Row, Col} from 'react-bootstrap';
 import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
 import ProjectVideoCard from '../ProjectVideoCard';
-import ProjectWebGLCard from '../ProjectWebGLCard';
+import ItchDownload from '../ItchDownload';
 
 export default function MotorbikeML() {
     return (
@@ -15,35 +15,26 @@ export default function MotorbikeML() {
                     {/* ------ Row 1 ------ */}
                     <Row>
                         <Col>
-                            <ProjectWebGLCard url='https://itch.io/embed-upload/6326514?color=16181b'/>
+                            <ProjectVideoCard src="/videos/mlmotorbikes.mp4"/>
                         </Col>
                     </Row>
 
                     <Row>
                         <Col>
+                            <ItchDownload src='1187235' download='https://soggykees.itch.io/machine-learning-motorbike-riding' title='Birthday Gift by Kees Tucker' />
                             <ProjectTextCard>
                                 <h2>About</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>During Lockdown (Coronavirus pandemic) I was missing my motorbike so I decided to start a Motorbike physics sim, I started off with balance and used Machine Learning, this using the PPO algorithm. I also rigged up a character to ride the bike using Inverse Kinematics. The next steps are to model real-world engine performance, tire physics lock in my bike physics (wheelies etc).</p>
+                                <p>I was having a few issues - the algorithm was hitting a plateau and couldn't improve further. After a few tweaks, including trying to streamline and make the movement more organic, I ended up with a very efficient brain but it was the opposite of organic (see below). It switches as fast as possible from max to min to balance, somewhat exploiting the system. Further work is required to get his nice and smooth.</p>
                             </ProjectTextCard>
-                            <ProjectImageCard src="/images/space/cockpit.png"/>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={6}>
-                            <ProjectImageCard src="/images/space/pilot.png"/>
-                            <ProjectImageCard src="/images/space/fps1.png"/>
-                        </Col>
-                        <Col md={6}>
-                            <ProjectImageCard src="/images/space/fps.png"/>
+                            <ProjectVideoCard src="/videos/mlmotorbike2.mp4"/>
                         </Col>
                     </Row>
                 </Col>
 
                 {/* ------ Right Column ------ */}
                 <Col md={3}>
-                    <ProjectImageCard src="/images/space/cockpit.jpg" />
+                    <ProjectImageCard src="/images/mlmotorbike/ml-card.png" />
                     <ProjectTextCard>
                         <h2>Team</h2>
                         <ul>

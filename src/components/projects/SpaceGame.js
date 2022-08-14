@@ -24,9 +24,12 @@ export default function SpaceGame() {
                             <ItchDownload src='1660089' download='https://soggykees.itch.io/space-fpsspaceflight' title='Space Game by Travers Cole and Kees Tucker' />
                             <ProjectTextCard>
                                 <h2>About</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>This was an after work project Travers and I put together for some fun.</p>
+                                <p>It wasn't supposed to be a full game, we just had fun working on features we enjoyed.</p>
+                                <p>I worked on realistic space flight movement, I now know why games don't have realistic space ships as they are extremely difficult to control.</p>
+                                <p>This taught me a lot about how important a balance between realism and fun is.</p>
+                                <p>Fully networked. Includes FPS elements thanks to Travers Cole.</p>
+                                <p>We used synty studios assets to create the awesome scene.</p>
                             </ProjectTextCard>
                             <ProjectImageCard src="/images/space/cockpit.png"/>
                         </Col>
