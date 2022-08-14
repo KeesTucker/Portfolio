@@ -1,13 +1,14 @@
-:root { --time: 0.707s; } // idk what this does but it's required to make this work lol
+:root { --time: 0.3s; } // idk what this does but it's required to make this work lol
 
 .project-flip-card {
     perspective: 100rem;
     display: flex;
-    transition: z-index, transform calc(var(--time) / 4);
+    transition: z-index, transform calc(var(--time) / 4), height calc(var(--time) / 4);
     transition-delay: var(--time), 0s;
     text-decoration: none;
     color: inherit;
     z-index: 0;
+    height: 100%;
   
     img {
       height:100%;
@@ -35,6 +36,7 @@
     h5 {
       color: white;
       font-size: 1.5rem;
+      margin: 20px;
     }
 
     .card-img-overlay.centered {
@@ -48,14 +50,16 @@
   flex: 1;
   display: flex;
   transform-style: preserve-3d;
-  transition: var(--time) transform;
 
   .project-flip-card:hover &, .project-flip-card:focus & {
-    transform: rotateX(-180deg);
+    .project-card-back {
+      height: 30%;
+    }
   }
 
   .project-card-front {
     background-color: #16181b;
+    height: 100%;
 
     svg {
       color: white;
@@ -64,14 +68,16 @@
   }
   
   .project-card-back {
-    transform: rotateX(-180deg) translate(-100%, 0);
+    transform: translate(-100%, 0);
+    height: 0;
     flex-direction: column;
-    padding: 20px;
     justify-content: space-around;
+    overflow: hidden;
     background-color: #16181b;
   }
   
   .project-card-front, .project-card-back {
+    transition: var(--time) transform, var(--time) height;
     border-radius: 0rem;
     display: flex;
     align-items: center;

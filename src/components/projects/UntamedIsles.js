@@ -10,26 +10,12 @@ export default function UntamedIsles() {
             <Row>
                 {/* ------ Left Column ------ */}
                 <Col md={9}>
-
                     {/* ------ Row 1 ------ */}
                     <Row>
-                        <Col>
-                            <ProjectVideoCard src="/videos/example/gameplay.mp4" type="video/mp4"/>
-                        </Col>
-                    </Row>
-
-                    <Row>
-                        <Col>
+                        <Col md={12}>
+                            <ProjectVideoCard src="/videos/untamedtrailer.mp4" type="video/mp4"/>
                             <ProjectTextCard>
-                                <h2>Title</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </ProjectTextCard>
-                        </Col>
-                        <Col>
-                            <ProjectTextCard>
-                                <h2>Title</h2>
+                                <h2>About</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -40,24 +26,18 @@ export default function UntamedIsles() {
                     <Row>
                         <Col md={6}>
                             <ProjectTextCard>
-                                <h2>Title</h2>
+                                <h2>Responsibilities</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </ProjectTextCard>
+                            <ProjectImageCard src="/images/untamed/wildencounter.png"  title='Wild Tame Encounter'/>
                         </Col>
-                        <Col><ProjectImageCard src="/images/example/lineup.png" /></Col>
-                    </Row>
-                    <Row>
                         <Col md={6}>
+                            <ProjectVideoCard src="/videos/untamedcombat.mp4" type="video/mp4"/>
                             <ProjectTextCard>
-                                <h2>Title</h2>
+                                <h2>Learnings</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </ProjectTextCard>
-                        </Col>
-                        <Col>
-                            <ProjectTextCard>
-                                <h2>Title</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </ProjectTextCard>
@@ -66,50 +46,35 @@ export default function UntamedIsles() {
                     <Row>
                         <Col md={6}>
                             <ProjectTextCard>
-                                <h2>Title</h2>
+                                <h2>Features</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </ProjectTextCard>
+                            <ProjectImageCard src="/images/untamed/combatnpc.png" title='Combat'/>
+                            <ProjectImageCard src="/images/untamed/genome.png" title='Tame Genome'/>
                         </Col>
-                        <Col>
-                            <ProjectTextCard>
-                                <h2>Title</h2>
-                                <p>Some other gameplay features include:</p>
-                                <ul>
-                                    <li>Outfit presets</li>
-                                    <li>Quests</li>
-                                    <li>Achievements</li>
-                                    <li>In-game Shop</li>
-                                    <li>Leaderboards</li>
-                                    <li>Friend lists</li>
-                                </ul>
-                            </ProjectTextCard>
+                        <Col md={6}>
+                            <ProjectImageCard src="/images/untamed/arenaplacement.png"  title='Arena Placement Algorithm'/>
+                            <ProjectImageCard src="/images/untamed/validarenas.png"  title='Valid Arena Cells'/>
                         </Col>
-                    </Row>
-
-                    <Row>
-                        <Col><ProjectImageCard src="/images/example/dressup1.png" /></Col>
-                        <Col><ProjectImageCard src="/images/example/dressup3.png" /></Col>
-                        <Col><ProjectVideoCard src="/videos/example/gameplay.mp4" type="video/mp4"/></Col>
                     </Row>
                 </Col>
 
                 {/* ------ Right Column ------ */}
-                <Col md={3}>example
-
-                    <ProjectImageCard src="/images/example/card-example.png" />
+                <Col md={3}>
+                    <ProjectImageCard src="/images/untamed/untamed-isles-card-transparent.png" />
 
                     <ProjectTextCard>
-                        <h2>Team Members</h2>
+                        <h2>Studio</h2>
                         <ul>
-                            <li>Guy 1</li>
-                            <li>Guy 2</li>
-                            <li>Guy 3</li>
-                            <li>Guy 4</li>
+                            <li>My Position: Network Programmer/Feature Lead</li>
+                            <li>Phat Loot Studios</li>
+                            <li>New Zealand</li>
+                            <li>70 Employees</li>
                         </ul>
                     </ProjectTextCard>
 
-                    <ProjectImageCard src="/images/example/banner-example.png" />
+                    <ProjectImageCard src="/images/untamed/phatlootlogo.png" />
 
                     <ProjectTextCard>
                         <h2>Technologies</h2>
@@ -117,10 +82,15 @@ export default function UntamedIsles() {
                             <li>Unity</li>
                             <li>C#</li>
                             <li>.NET</li>
-                            <li>EF Core</li>
-                            <li>EC2 & ECS (AWS)</li>
+                            <li>Mirror</li>
+                            <li>Unity ECS</li>
+                            <li>Firebase</li>
                         </ul>
                     </ProjectTextCard>
+                </Col>
+
+                <Col>
+                    
                 </Col>
             </Row>
         </div>

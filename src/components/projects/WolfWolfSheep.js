@@ -2,7 +2,6 @@ import '../../styles/Project.scss';
 import {Row, Col} from 'react-bootstrap';
 import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
-import ProjectVideoCard from '../ProjectVideoCard';
 import ProjectWebGLCard from '../ProjectWebGLCard';
 
 export default function WolfWolfSheep() {
@@ -22,95 +21,39 @@ export default function WolfWolfSheep() {
                     <Row>
                         <Col>
                             <ProjectTextCard>
-                                <h2>Title</h2>
+                                <h2>About</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </ProjectTextCard>
-                        </Col>
-                        <Col>
-                            <ProjectTextCard>
-                                <h2>Title</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </ProjectTextCard>
-                        </Col>
-                    </Row>
-
-                    <Row>
-                        <Col md={6}>
-                            <ProjectTextCard>
-                                <h2>Title</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </ProjectTextCard>
-                        </Col>
-                        <Col><ProjectImageCard src="/images/example/lineup.png" /></Col>
-                    </Row>
-                    <Row>
-                        <Col md={6}>
-                            <ProjectTextCard>
-                                <h2>Title</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </ProjectTextCard>
-                        </Col>
-                        <Col>
-                            <ProjectTextCard>
-                                <h2>Title</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </ProjectTextCard>
+                            <ProjectImageCard src="/images/wolfwolfsheep/gameplay1.png"/>
                         </Col>
                     </Row>
                     <Row>
                         <Col md={6}>
-                            <ProjectTextCard>
-                                <h2>Title</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </ProjectTextCard>
+                            <ProjectImageCard src="/images/wolfwolfsheep/gameplay2.png" title='SHEEP'/>
+                            <ProjectImageCard src="/images/wolfwolfsheep/gameplay4.png" title='BLOOD'/>
                         </Col>
-                        <Col>
-                            <ProjectTextCard>
-                                <h2>Title</h2>
-                                <p>Some other gameplay features include:</p>
-                                <ul>
-                                    <li>Outfit presets</li>
-                                    <li>Quests</li>
-                                    <li>Achievements</li>
-                                    <li>In-game Shop</li>
-                                    <li>Leaderboards</li>
-                                    <li>Friend lists</li>
-                                </ul>
-                            </ProjectTextCard>
+                        <Col md={6}>
+                            <ProjectImageCard src="/images/wolfwolfsheep/gameplay3.png" title='WOLF'/>
                         </Col>
-                    </Row>
-
-                    <Row>
-                        <Col><ProjectImageCard src="/images/example/dressup1.png" /></Col>
-                        <Col><ProjectImageCard src="/images/example/dressup3.png" /></Col>
-                        <Col><ProjectVideoCard src="/videos/example/gameplay.mp4" type="video/mp4"/></Col>
                     </Row>
                 </Col>
 
                 {/* ------ Right Column ------ */}
-                <Col md={3}>example
-
-                    <ProjectImageCard src="/images/example/card-example.png" />
+                <Col md={3}>
+                    <ProjectImageCard src="/images/wolfwolfsheep/wolf-wolf-sheep-card-transparent.png" />
 
                     <ProjectTextCard>
-                        <h2>Team Members</h2>
+                        <h2>Team</h2>
                         <ul>
-                            <li>Guy 1</li>
-                            <li>Guy 2</li>
-                            <li>Guy 3</li>
-                            <li>Guy 4</li>
+                            <li>Kees - Programmer</li>
+                            <li>Ben - Programmer</li>
+                            <li>Mike - Programmer</li>
+                            <li>Renee - Artist</li>
+                            <li>Kent - Artist</li>
                         </ul>
                     </ProjectTextCard>
-
-                    <ProjectImageCard src="/images/example/banner-example.png" />
 
                     <ProjectTextCard>
                         <h2>Technologies</h2>
@@ -118,10 +61,14 @@ export default function WolfWolfSheep() {
                             <li>Unity</li>
                             <li>C#</li>
                             <li>.NET</li>
-                            <li>EF Core</li>
-                            <li>EC2 & ECS (AWS)</li>
+                            <li>Photon</li>
+                            <li>Boids</li>
                         </ul>
                     </ProjectTextCard>
+                </Col>
+
+                <Col>
+                    
                 </Col>
             </Row>
         </div>

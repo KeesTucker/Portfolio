@@ -2,7 +2,9 @@ import '../../styles/Projects.scss';
 import { projects, groups } from "../../data";
 import GroupedProjects from '../GroupedProjects';
 
-export default function Games() {
+export default function Projects() {
+
+    const FEATURED_KEY = "Featured";
 
     const project_dict = {};
     const group_dict = {};
@@ -15,6 +17,13 @@ export default function Games() {
 
         // Add project to respective category list
         project_dict[project.group].push(project);
+
+        // Add to featured list
+        if (project.featured){
+            if (project_dict[FEATURED_KEY] == null)
+                project_dict[FEATURED_KEY] = [];
+            project_dict[FEATURED_KEY].push(project);
+        }
 
         // Added to prevent warning
         return {};

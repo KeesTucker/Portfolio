@@ -20,7 +20,9 @@ export default function Header() {
                     <Navbar.Toggle />
                     <Navbar.Collapse>
                         <Nav>
-                            <Nav.Link exact as={NavLink} to="/games" isActive={() => ['/', '/games'].includes(pathname)} className="nav-item">Games</Nav.Link>
+                            <Nav.Link exact as={NavLink} to="/projects" isActive={() => ['/', '/projects'].includes(pathname)} className="nav-item">Projects</Nav.Link>
+                            <Nav.Link exact as={NavLink} to="/blog" isActive={() => ['/', '/blog'].includes(pathname)} className="nav-item">Blog</Nav.Link>
+                            <Nav.Link exact as={NavLink} to="/contact" isActive={() => ['/', '/contact'].includes(pathname)} className="nav-item">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Row>

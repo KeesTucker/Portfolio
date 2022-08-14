@@ -5,6 +5,14 @@ body {
   background-color: #F1A638;
 }
 
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: medium solid #16181b;
+  opacity: 1;
+}
+
 .container-fluid.main {
   padding: 0;
 }

@@ -3,8 +3,9 @@ import {Row, Col} from 'react-bootstrap';
 import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
 import ProjectVideoCard from '../ProjectVideoCard';
+import ProjectWebGLCard from '../ProjectWebGLCard';
 
-export default function SoilSim() {
+export default function Birthday() {
     return (
         <div className="project">
             <Row>
@@ -14,7 +15,7 @@ export default function SoilSim() {
                     {/* ------ Row 1 ------ */}
                     <Row>
                         <Col>
-                        <iframe title='Download Button' frameborder="0" src="https://itch.io/embed/1187326?border_width=0&amp;bg_color=222222&amp;fg_color=eeeeee&amp;link_color=eeeeee&amp;border_color=363636" width="550" height="165"><a href="https://soggykees.itch.io/vr-soil-sim">VR Soil Sim by Kees Tucker</a></iframe>
+                            <ProjectWebGLCard url='https://itch.io/embed-upload/6326514?color=16181b'/>
                         </Col>
                     </Row>
 
