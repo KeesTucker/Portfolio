@@ -51,15 +51,15 @@ export default function App() {
               <Route path="/gallery" exact component={() => <Gallery />} />
 
               {/* Projects */}
-              <Route path="/projects/soilsim" component={() => <SoilSim />} />
-              <Route path="/projects/untamed" component={() => <UntamedIsles />} />
-              <Route path="/projects/stickroyale" component={() => <StickRoyale />} />
-              <Route path="/projects/wolfwolfsheep" component={() => <WolfWolfSheep />} />
-              <Route path="/projects/spacegame" component={() => <SpaceGame />} />
-              <Route path="/projects/gravityzen" component={() => <GravityZen />} />
-              <Route path="/projects/vision" component={() => <Vision />} />
-              <Route path="/projects/motorbikeml" component={() => <MotorbikeML />} />
-              <Route path="/projects/birthday" component={() => <Birthday />} />
+              <Route path="/projects/soilsim" exact component={() => <SoilSim />} />
+              <Route path="/projects/untamed" exact component={() => <UntamedIsles />} />
+              <Route path="/projects/stickroyale" exact component={() => <StickRoyale />} />
+              <Route path="/projects/wolfwolfsheep" exact component={() => <WolfWolfSheep />} />
+              <Route path="/projects/spacegame" exact component={() => <SpaceGame />} />
+              <Route path="/projects/gravityzen" exact component={() => <GravityZen />} />
+              <Route path="/projects/vision" exact component={() => <Vision />} />
+              <Route path="/projects/motorbikeml" exact component={() => <MotorbikeML />} />
+              <Route path="/projects/birthday" exact component={() => <Birthday />} />
             </Switch>
           </Row>
         </Container>
