@@ -37,20 +37,11 @@ export default function MotorbikeML() {
                 <Col md={3}>
                     <ProjectImageCard src="/images/mlmotorbike/ml-card.png" />
                     <ProjectTextCard>
-                        <h2>Team</h2>
-                        <ul>
-                            <li>Travers Cole - Programmer</li>
-                            <li>Kees - Programmer</li>
-                        </ul>
-                    </ProjectTextCard>
-
-                    <ProjectTextCard>
                         <h2>Technologies</h2>
                         <ul>
                             <li>Unity</li>
                             <li>C#</li>
                             <li>.NET</li>
-                            <li>Mirror</li>
                         </ul>
                     </ProjectTextCard>
                 </Col>
