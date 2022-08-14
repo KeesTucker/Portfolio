@@ -14,7 +14,7 @@ export default function SoilSim() {
                     {/* ------ Row 1 ------ */}
                     <Row>
                         <Col>
-                        <iframe title='Download Button' frameborder="0" src="https://itch.io/embed/1187326?border_width=0&amp;bg_color=222222&amp;fg_color=eeeeee&amp;link_color=eeeeee&amp;border_color=363636" width="550" height="165"><a href="https://soggykees.itch.io/vr-soil-sim">VR Soil Sim by Kees Tucker</a></iframe>
+                            <iframe title='Download Button' frameborder="0" src="https://itch.io/embed/1187326?border_width=0&amp;bg_color=222222&amp;fg_color=eeeeee&amp;link_color=eeeeee&amp;border_color=363636" width="550" height="165"><a href="https://soggykees.itch.io/vr-soil-sim">VR Soil Sim by Kees Tucker</a></iframe>
                         </Col>
                     </Row>
 

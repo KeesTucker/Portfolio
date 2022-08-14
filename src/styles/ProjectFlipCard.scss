@@ -12,7 +12,6 @@
   
     img {
       height:100%;
-      border-radius: 0rem;
       border: #16181b medium solid;
     }
 
@@ -78,7 +77,6 @@
   
   .project-card-front, .project-card-back {
     transition: var(--time) transform, var(--time) height;
-    border-radius: 0rem;
     display: flex;
     align-items: center;
     box-sizing: border-box;

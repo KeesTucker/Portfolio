@@ -4,6 +4,7 @@ import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
 import ProjectVideoCard from '../ProjectVideoCard';
 import ProjectYoutubeEmbedCard from '../ProjectYoutubeEmbedCard';
+import ItchDownload from '../ItchDownload';
 
 export default function StickRoyale() {
     return (
@@ -26,13 +27,12 @@ export default function StickRoyale() {
 
                     <Row>
                         <Col md={6}>
+                            <ProjectImageCard src="/images/untamed/wildencounter.png"  title='Wild Tame Encounter'/>
                             <ProjectTextCard>
-                                <h2>Responsibilities</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h2>Features</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </ProjectTextCard>
-                            <ProjectImageCard src="/images/untamed/wildencounter.png"  title='Wild Tame Encounter'/>
                         </Col>
                         <Col md={6}>
                             <ProjectVideoCard src="/videos/untamedcombat.mp4" type="video/mp4"/>
@@ -46,11 +46,6 @@ export default function StickRoyale() {
                     </Row>
                     <Row>
                         <Col md={6}>
-                            <ProjectTextCard>
-                                <h2>Features</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </ProjectTextCard>
                             <ProjectImageCard src="/images/untamed/combatnpc.png" title='Combat'/>
                             <ProjectImageCard src="/images/untamed/genome.png" title='Tame Genome'/>
                         </Col>
@@ -64,6 +59,8 @@ export default function StickRoyale() {
                 {/* ------ Right Column ------ */}
                 <Col md={3}>
                     <ProjectImageCard src="/images/untamed/untamed-isles-card-transparent.png" />
+
+                    <ItchDownload src='1187259' download='https://soggykees.itch.io/stick-royale' title='Stick Royale by Kees Tucker' />
 
                     <ProjectTextCard>
                         <h2>Studio</h2>
