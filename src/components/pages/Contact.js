@@ -6,6 +6,7 @@ export default function Contact() {
             <h2>Contact</h2>
             <hr/>
             <ul>
+                <li><h3><a rel="noopener noreferrer" target='_blank' href="/CV-KeesTucker.pdf">CV</a></h3></li>
                 <li><h3><a rel="noopener noreferrer" target='_blank' href="mailto:keest@protonmail.com">keest@protonmail</a></h3></li>
                 <li><h3><a rel="noopener noreferrer" target='_blank' href="https://github.com/KeesTucker">Github</a></h3></li>
                 <li><h3><a rel="noopener noreferrer" target='_blank' href="https://soggykees.itch.io/">itch.io</a></h3></li>
