@@ -28,16 +28,12 @@ export default function Docker() {
                         </Col>
                     </Row>
                     <Row>
-                        <Col md={6}>
-                            <ProjectImageCard src="/images/docker/bitwarden.png" title='Private Bitwarden Server'/>
-                            <ProjectImageCard src="/images/docker/muso.png" title='Custom music organisation script: MUSO'/>
-                            <ProjectImageCard src="/images/docker/spolex.png" title='Custom sync script to keep spotify and plex up to date and synced: SPOLEX'/>
-                        </Col>
-                        <Col md={6}>
-                            <ProjectImageCard src="/images/docker/requesterr.png" title='Discord bot to send requests to the Arr suite.'/>
-                            <ProjectImageCard src="/images/docker/tdarr-stack.png" title='Tdarr automatic transcoding stack to keep file size of videos down and remux.'/>
-                            <ProjectImageCard src="/images/docker/transcode.png" title='Tdarr transcoding some files.'/>
-                        </Col>
+                        <ProjectImageCard src="/images/docker/bitwarden.png" title='Private Bitwarden Server'/>
+                        <ProjectImageCard src="/images/docker/muso.png" title='Custom music organisation script: MUSO'/>
+                        <ProjectImageCard src="/images/docker/spolex.png" title='Custom sync script to keep spotify and plex up to date and synced: SPOLEX'/>
+                        <ProjectImageCard src="/images/docker/requesterr.png" title='Discord bot to send requests to the Arr suite.'/>
+                        <ProjectImageCard src="/images/docker/tdarr-stack.png" title='Tdarr automatic transcoding stack to keep file size of videos down and remux.'/>
+                        <ProjectImageCard src="/images/docker/transcode.png" title='Tdarr transcoding some files.'/>
                     </Row>
                 </Col>
 
