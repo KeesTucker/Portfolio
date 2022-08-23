@@ -20,7 +20,7 @@ export default function Docker() {
                     <Row>
                         <Col>
                             <ProjectTextCard>
-                                <h2>Docker</h2>
+                                <h2>Media Stack and Bitwarden</h2>
                                 <p>I have spent a lot of time setting up a dockerized home media stack that runs on my home server. The stack contains the Arr suite along with a discord bot to sent requests to the Arr applications + lots more.</p>
                                 <p>I also have a dockerized private bitwarden server running from the same server.</p>
                                 <p>I have also written some python scripts that run in containers to help keep my music library organized and synced between Plex Amp and Spotify</p>
