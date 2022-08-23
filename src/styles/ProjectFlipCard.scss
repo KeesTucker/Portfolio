@@ -3,16 +3,18 @@
 .project-flip-card {
     perspective: 100rem;
     display: flex;
-    transition: z-index, transform calc(var(--time) / 4), height calc(var(--time) / 4);
+    transition: z-index, transform calc(var(--time) / 4), height calc(var(--time) / 4), opacity calc(var(--time) / 4);
     transition-delay: var(--time), 0s;
     text-decoration: none;
     color: inherit;
     z-index: 0;
     height: 100%;
+    border-radius: 1rem;
   
     img {
       height:100%;
       border: #16181b medium solid;
+      border-radius: 1rem;
     }
 
     &.gradient .card-img-overlay {
@@ -34,7 +36,7 @@
     
     h5 {
       color: white;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       margin: 20px;
     }
 
@@ -53,6 +55,7 @@
   .project-flip-card:hover &, .project-flip-card:focus & {
     .project-card-back {
       height: 30%;
+      opacity: 1;
     }
   }
 
@@ -68,15 +71,16 @@
   
   .project-card-back {
     transform: translate(-100%, 0);
-    height: 0;
+    height: 10%;
     flex-direction: column;
     justify-content: space-around;
     overflow: hidden;
     background-color: #16181b;
+    opacity: 0;
   }
   
   .project-card-front, .project-card-back {
-    transition: var(--time) transform, var(--time) height;
+    transition: var(--time) transform, var(--time) height, var(--time) opacity;
     display: flex;
     align-items: center;
     box-sizing: border-box;
@@ -85,5 +89,6 @@
     margin: 0px;
     text-align: center;
     justify-content: center;
+    border-radius: 1rem;
   }
 }

@@ -4,6 +4,7 @@ import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
 import ProjectWebGLCard from '../ProjectWebGLCard';
 import ItchDownload from '../ItchDownload';
+import ProjectYoutubeEmbedCard from '../ProjectYoutubeEmbedCard';
 
 export default function WolfWolfSheep() {
     return (
@@ -30,7 +31,7 @@ export default function WolfWolfSheep() {
                                 <p>We used photon for the networking and some synty assets for the environment. I used a naive boids implementation for the flocking sheep which helped make the sheeps movement somewhat realistic.</p>
                                 <p>We had so much fun making this. Unfortunatley it was disqualified as we used Photon Networking, however, it game 1st equal in the voting.</p>
                             </ProjectTextCard>
-                            <ProjectImageCard src="/images/wolfwolfsheep/gameplay1.png"/>
+                            <ProjectYoutubeEmbedCard src="jhzcG77WgVY"/>
                         </Col>
                     </Row>
                     <Row>

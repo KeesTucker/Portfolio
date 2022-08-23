@@ -24,6 +24,7 @@ import Vision from "./components/projects/Vision";
 import MotorbikeML from "./components/projects/MotorbikeML";
 import Birthday from "./components/projects/Birthday";
 import Gallery from "./components/pages/Gallery";
+import Docker from "./components/projects/Docker";
 
 // Font awesome setup
 const iconList = Object.keys(Icons)
@@ -60,6 +61,7 @@ export default function App() {
               <Route path="/projects/vision" exact component={() => <Vision />} />
               <Route path="/projects/motorbikeml" exact component={() => <MotorbikeML />} />
               <Route path="/projects/birthday" exact component={() => <Birthday />} />
+              <Route path="/projects/docker" exact component={() => <Docker />} />
             </Switch>
           </Row>
         </Container>

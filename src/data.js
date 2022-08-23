@@ -67,7 +67,7 @@ export const projects =
     },
     {
         key: "motorbikeml",
-        description: "Motorbike Machine Learning (2020)",
+        description: "Motorbike ML (2020)",
         image: "/images/mlmotorbike/ml-card.png",
         slug: "motorbikeml",
         group: "Prototype",
@@ -80,6 +80,15 @@ export const projects =
         image: "/images/birthday/birthday-card.png",
         slug: "birthday",
         group: "Personal Projects",
+        featured: false,
+        color: "#16181b"
+    },
+    {
+        key: "docker",
+        description: "Home Server (2022)",
+        image: "/images/docker/docker-card.png",
+        slug: "docker",
+        group: "Non-Game",
         featured: false,
         color: "#16181b"
     },
@@ -97,7 +106,7 @@ export const groups =
     },
     {
         key: "Industry",
-        prio: 2,
+        prio: 1,
     },
     {
         key: "Personal Projects",
@@ -105,6 +114,10 @@ export const groups =
     },
     {
         key: "Game Jams",
-        prio: 1,
+        prio: 0,
+    },
+    {
+        key: "Non-Game",
+        prio: 2,
     },
 ];

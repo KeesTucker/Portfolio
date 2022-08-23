@@ -3,16 +3,20 @@
     margin-top: 10px;
     padding: 0px;
     background-color: #212529;
+    border-radius: 1rem;
     
     video {
         min-width: 100%;
         max-width: 100%;
         background-color: #212529;
         border: solid medium #212529;
+        border-radius: 1rem;
     }
 
     p {
-        margin-top: -10px;
+        padding-bottom: 10px;
+        width: 80% !important;
+        margin-left: 10%;
         color: white;
     }
 }

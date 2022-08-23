@@ -7,7 +7,7 @@
     .card {
         border: solid medium #212529;
         background-color: #212529;
-        border-radius: 0;
+        border-radius: 1rem;
     }
 
     .gif {
@@ -20,7 +20,7 @@
     }
 
     img {
-        border-radius: 0;
+        border-radius: 1rem;
     }
 
     .flipped img {
@@ -29,7 +29,9 @@
     }
 
     p {
-        margin: 0;
+        margin: 10px;
         color: white;
+        width: 80% !important;
+        margin-left: 10%;
     }
 }
