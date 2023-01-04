@@ -92,6 +92,33 @@ export const projects =
         featured: false,
         color: "#16181b"
     },
+    {
+        key: "project-rat",
+        description: "PROJECT RAT Prototype (2022)",
+        image: "/images/project-rat/rat-card.png",
+        slug: "projectrat",
+        group: "Industry",
+        featured: false,
+        color: "#89cfba"
+    },
+    {
+        key: "amebois",
+        description: "Amebois (2022)",
+        image: "/images/amebois/amebois-card.png",
+        slug: "amebois",
+        group: "Game Jams",
+        featured: false,
+        color: "#16181b"
+    },
+    {
+        key: "building",
+        description: "Prototype Physics Building (2022)",
+        image: "/images/building-prototype/building-card.png",
+        slug: "building",
+        group: "Industry",
+        featured: false,
+        color: "#16181b"
+    },
 ];
 
 export const groups = 
@@ -102,15 +129,15 @@ export const groups =
     },
     {
         key: "Prototype",
-        prio: 3,
+        prio: 2,
     },
     {
         key: "Industry",
-        prio: 1,
+        prio: 4,
     },
     {
         key: "Personal Projects",
-        prio: 4,
+        prio: 3,
     },
     {
         key: "Game Jams",
@@ -118,6 +145,6 @@ export const groups =
     },
     {
         key: "Non-Game",
-        prio: 2,
+        prio: 1,
     },
 ];

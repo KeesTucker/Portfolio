@@ -29,7 +29,7 @@ export default function WolfWolfSheep() {
                                 <p>Over the course of a weekend we developed an asymmetric multiplayer game similar to Among Us.</p>
                                 <p>This game taught me how valuable proper scoping is, we scoped our game very small and we finished early and got time to add extra features!</p>
                                 <p>We used photon for the networking and some synty assets for the environment. I used a naive boids implementation for the flocking sheep which helped make the sheeps movement somewhat realistic.</p>
-                                <p>We had so much fun making this. Unfortunatley it was disqualified as we used Photon Networking, however, it game 1st equal in the voting.</p>
+                                <p>We had so much fun making this. Unfortunatley it was disqualified as we used Photon Networking, however, it came 1st equal in the voting.</p>
                             </ProjectTextCard>
                             <ProjectYoutubeEmbedCard src="jhzcG77WgVY"/>
                         </Col>
