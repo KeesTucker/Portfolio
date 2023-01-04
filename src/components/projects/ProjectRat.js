@@ -22,7 +22,7 @@ export default function ProjectRat() {
                     <Row>
                         <Col>
                             <ProjectVideoCard src="/videos/roofrat.mp4" title="Rat Controller Demo I"/>
-                            <ProjectVideoCard src="/videos/GRAPPLE_OP.mp4" title="Rat Controller Demo II"/>
+                            <ProjectVideoCard src="/videos/grapple_op.mp4" title="Rat Controller Demo II"/>
                             <ProjectVideoCard src="/videos/rat_tushy.mp4" title="Rat Controller Demo III"/>
                         </Col>
                     </Row>
