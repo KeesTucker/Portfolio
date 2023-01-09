@@ -9,12 +9,12 @@
     color: inherit;
     z-index: 0;
     height: 100%;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
   
     img {
       height:100%;
       //border: #16181b medium solid;
-      border-radius: 1rem;
+      border-radius: 0.3rem;
     }
 
     &.gradient .card-img-overlay {
@@ -89,6 +89,6 @@
     margin: 0px;
     text-align: center;
     justify-content: center;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
   }
 }
