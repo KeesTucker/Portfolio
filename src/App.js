@@ -24,10 +24,11 @@ import Vision from "./components/projects/Vision";
 import MotorbikeML from "./components/projects/MotorbikeML";
 import Birthday from "./components/projects/Birthday";
 import Gallery from "./components/pages/Gallery";
-import Docker from "./components/projects/Docker";
 import Amebois from "./components/projects/Amebois";
 import ProjectRat from "./components/projects/ProjectRat";
 import Building from "./components/projects/Building";
+import Pakuman from "./components/projects/Pakuman";
+import Hero from "./components/projects/Hero";
 
 // Font awesome setup
 const iconList = Object.keys(Icons)
@@ -64,10 +65,11 @@ export default function App() {
               <Route path="/projects/vision" exact component={() => <Vision />} />
               <Route path="/projects/motorbikeml" exact component={() => <MotorbikeML />} />
               <Route path="/projects/birthday" exact component={() => <Birthday />} />
-              <Route path="/projects/docker" exact component={() => <Docker />} />
               <Route path="/projects/amebois" exact component={() => <Amebois />} />
               <Route path="/projects/projectrat" exact component={() => <ProjectRat />} />
               <Route path="/projects/building" exact component={() => <Building />} />
+              <Route path="/projects/pakuman" exact component={() => <Pakuman />} />
+              <Route path="/projects/hero" exact component={() => <Hero />} />
             </Switch>
           </Row>
         </Container>
